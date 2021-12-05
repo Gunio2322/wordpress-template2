@@ -1,5 +1,5 @@
 <?php/*
-* index.php
+* home.php dp sytony blog
  */
 ?>
 <?php get_header(); ?>
@@ -11,6 +11,6 @@
 
 <div class="body-container"> -->
 <h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
-<div><?php the_content(); ?></div>
+<div><?php the_excerpt(); ?></div>
 <?php endwhile; ?>
 <?php get_footer(); ?>

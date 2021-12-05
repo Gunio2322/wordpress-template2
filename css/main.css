@@ -42,7 +42,7 @@
 /* Body
 ---------------------------------------------------------------------- */
 body {
-	background: #0e1015;
+	/* background: #0e1015; */
 	font: 15px/30px "merriweather-regular", serif;
 	font-weight: normal;
 	color: #575859;
@@ -1036,6 +1036,8 @@ ul#nav li.current a {
 /* i. Footer Styles
 /* =================================================================== */
 footer {
+		
+    background: #0e1015;
 	padding-top: 36px;
 	padding-bottom: 42px;
 	font-size: 13px;
@@ -1116,6 +1118,14 @@ footer #go-top a:hover {
 	background: #faec09;
 	color: #252525;
 }
+/**
+moje dopisane do body-container
+*/
+.main-container {
+
+}
+
+
 
 
 /* 
@@ -1287,6 +1297,8 @@ hr {
 	width: 100%;
 	text-align: center;
 	position: relative;
+	/*tu dodany*/
+	height: 100vh;
 }
 .ie8 #hero { background: #12151b; }
 

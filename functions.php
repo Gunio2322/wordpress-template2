@@ -1,13 +1,16 @@
 
 <?php
+//obrazek wyrozniajacy
+add_theme_support( 'post-thumbnails' ); 
+add_image_size('standard-image', 1024,  auto,  true);
+array(‘center’, ‘center’);
 
-
-function cloudyblog_setup(){
+function puremedia_setup(){
 
     //  nowe funkcjonalności
     
   }
-  add_action('after_setup_theme', 'cloudyblog_setup');
+  add_action('after_setup_theme', 'puremedia_setup');
   
   
 
@@ -27,6 +30,8 @@ wp_enqueue_script( 'main-script', get_template_directory_uri().'/js/main.js',arr
 wp_enqueue_script( 'modernizr-script', get_template_directory_uri().'/js/modernizr.js',array('jquery'),'1.0', true);
 }
 add_action( 'wp_enqueue_scripts', 'puremedia_scripts' );
+
+
 
 
 

@@ -27,6 +27,8 @@ html {
 body {
 	margin: 0;
 }
+.body-container {
+}
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
 	display: block;
 }
@@ -271,6 +273,34 @@ img {
 /* 
 /* e. Grid
 ===================================================================== */
+.my-articles {
+    overflow: hidden;
+}
+ 
+.my-articles > div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+}
+ 
+.my-articles.cols-2 > div {
+    width: 50%;
+}
+ 
+.my-articles.cols-3 > div {
+    width: 33.3%;
+}
+
+/* 
+Kuniec
+*/
+
+
+
+
+
 .row {
 	width: 94%;
 	max-width: 1024px;
@@ -350,6 +380,9 @@ img {
 .twelve, .row .twelve {
 	width: 100%;
 }
+.twelve-journal {
+	width: 33.33333%;
+}
 
 /* tablets
 --------------------------------------------------------------- */
@@ -418,7 +451,7 @@ img {
 
 /* small mobile devices
 --------------------------------------------------------------- */
-@media screen and (max-width:400px) {
+@media screen and (max-width:450px) {
 	.row {
 		padding-left: 30px;
 		padding-right: 30px;
@@ -460,7 +493,7 @@ img {
 	width: 25%;
 }
 .bgrid-third .bgrid {
-	width: 33.33333%;
+	/* width: 33.33333%; */
 }
 .bgrid-half .bgrid {
 	width: 50%;
@@ -469,6 +502,7 @@ img {
 	padding: 0;
 }
 
+
 /* Clearing for block grid columns. Allows columns with
 different heights to align properly. */
 .first {
@@ -476,9 +510,9 @@ different heights to align properly. */
 }
 
 /* first column in large(default) screen - for IE8 */
-.bgrid-sixth .bgrid:nth-child(6n+1), .bgrid-fourth .bgrid:nth-child(4n+1), .bgrid-third .bgrid:nth-child(3n+1), .bgrid-half .bgrid:nth-child(2n+1) {
+/* .bgrid-sixth .bgrid:nth-child(6n+1), .bgrid-fourth .bgrid:nth-child(4n+1), .bgrid-third .bgrid:nth-child(3n+1), .bgrid-half .bgrid:nth-child(2n+1) {
 	clear: both;
-}
+} */
 
 /* smaller screens */
 @media screen and (max-width:900px) {
@@ -493,7 +527,8 @@ different heights to align properly. */
 		width: 33.33333%;
 	}
 	.s-bgrid-half .bgrid {
-		width: 50%;
+		/* width: 50%; */
+		
 	}
 	.s-bgrid-whole .bgrid {
 		width: 100%;
@@ -531,6 +566,8 @@ different heights to align properly. */
 	.tab-bgrid-sixth .bgrid:nth-child(6n+1), .tab-bgrid-fourth .bgrid:nth-child(4n+1), .tab-bgrid-third .bgrid:nth-child(3n+1), .tab-bgrid-half .bgrid:nth-child(2n+1) {
 		clear: both;
 	}
+	
+	
 }
 
 /* mobile devices */
@@ -620,4 +657,7 @@ different heights to align properly. */
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+}
+.journal-container {
+
 }
