@@ -248,6 +248,8 @@ a {
 }
 a img {
 	border: none;
+	/* dodane */
+	width: 100%;
 }
 a:focus {
 	outline: none;
@@ -306,6 +308,14 @@ Kuniec
 	max-width: 1024px;
 	margin: 0 auto;
 }
+
+.row-cat {
+	width: 94%;
+	max-width: 1024px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: nowrap;
+}
 .ie8 .row {
 	width: 1024px;
 }
@@ -327,7 +337,15 @@ Kuniec
 }
 .column, .columns, .bgrid {
 	position: relative;
-	padding: 0 18px;
+	/* margin: 10px; */
+	padding: 0 auto;
+	min-height: 1px;
+	float: left;
+}
+.columns-cat {
+	position: relative;
+	margin: 10px;
+	padding: 0 auto;
 	min-height: 1px;
 	float: left;
 }
@@ -380,9 +398,17 @@ Kuniec
 .twelve, .row .twelve {
 	width: 100%;
 }
+
 .twelve-journal {
 	width: 33.33333%;
+	
 }
+
+.twelve-journal-cat {
+	width: 33.33333%;
+	background-color: white;
+	margin: 10px;
+    padding: 10px;
 
 /* tablets
 --------------------------------------------------------------- */
@@ -453,8 +479,8 @@ Kuniec
 --------------------------------------------------------------- */
 @media screen and (max-width:450px) {
 	.row {
-		padding-left: 30px;
-		padding-right: 30px;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 	.row .row {
 		padding-left: 0;

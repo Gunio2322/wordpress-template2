@@ -108,6 +108,13 @@ h6 {
 }
 p {
 	margin: 15px 0 15px 0;
+	
+}
+.p-cat {
+	/* margin: 15px 0 15px 0; */
+	font-size: 14px;
+    /* text-size-adjust: none; */
+    line-height: 2.6rem;
 }
 p img {
 	margin: 0;
@@ -905,9 +912,9 @@ ul#nav li.current a {
 /* =================================================================== */
 
 #content {
-	background: white;
-	padding-top: 66px;
-	padding-bottom: 102px;
+	background:#e5e5e5;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 #content #main {
 	padding-top: 6px;
@@ -1696,6 +1703,17 @@ hr {
 	padding-bottom: 108px;
 	width: 100%;
 }
+
+#journal-cat-posts {
+	/* background: #a43b0a url(../images/blog-bg.jpg) no-repeat bottom center fixed; */
+	background-color: #e5e5e5;
+	-webkit-background-size: cover !important;
+	-moz-background-size: cover !important;
+	background-size: cover !important;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+}
 #journal h1, #journal h3, #journal h3 a {
 	color: white;
 }
@@ -2010,4 +2028,11 @@ hr {
 }
 .more-projects .portfolio-wrapper {
 	text-align: left;
+}
+.container-box{
+	/* border: red 1px solid; */
+	padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+	box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
 }

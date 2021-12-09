@@ -2,7 +2,7 @@
 <?php
 //obrazek wyrozniajacy
 add_theme_support( 'post-thumbnails' ); 
-add_image_size('standard-image', 1024,  auto,  true);
+add_image_size('standard-image', auto,  auto,  true);
 array(‘center’, ‘center’);
 
 function puremedia_setup(){
@@ -31,7 +31,23 @@ wp_enqueue_script( 'modernizr-script', get_template_directory_uri().'/js/moderni
 }
 add_action( 'wp_enqueue_scripts', 'puremedia_scripts' );
 
+// Rejestracja sidebar
+function reg_sidebar() {
+  register_sidebar(array(
+  'name'          => 'Panel boczny', 'Puremedia',
+  'id'            => 'sidebar-2',
+  'description'   => 'Tutaj przeciągnij widżet.', 'nazwa_motywu',
+  'before_widget' => '<div id="%1$s" class="aside_box %2$s">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h2>',
+  'after_title'   => '</h2>',
+));
+}
+add_action('widgets_init','reg_sidebar');
+// ------------------------------------------------------------ 
 
-
-
+function num_charest() {
+  return 14;
+}
+add_filter('excerpt_length', 'num_charest');
 

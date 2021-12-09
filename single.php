@@ -1,23 +1,26 @@
-
-
-
 <?php
 /*
-template-parts
- */
+*Template Name: Single post
+*Template Post Type: post
+*/
+
 ?>
 <?php get_header();?>
 
 
 <main>
 
-            <?php get_template_part('template-parts/hero');?>
+            <?php get_template_part('template-parts/header-single');?>
 
             <div class="main-container">
             <?php get_template_part('template-parts/content');?>
+            <?php get_template_part('template-parts/cat-posts');?>
+           
 </div>
-<?php get_template_part('template-parts/new-posts');?>
 
+
+
+   
 
 
 
@@ -30,7 +33,8 @@ template-parts
 </div>
   <!-- .content-area -->
 
-
+ 
+ 
 
    <?php get_footer();?>
 
