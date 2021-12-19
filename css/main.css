@@ -914,7 +914,7 @@ ul#nav li.current a {
 /* =================================================================== */
 
 #content {
-	background:#f3f3f3;
+	/* background:#f3f3f3; */
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
@@ -1130,9 +1130,7 @@ footer #go-top a:hover {
 /**
 moje dopisane do body-container
 */
-.main-container {
 
-}
 
 
 
@@ -1567,9 +1565,9 @@ hr {
 /*  m. Services Section
 /* =================================================================== */
 #services {
-	background: #ecf0f1;
-	padding-top: 120px;
-	padding-bottom: 120px;
+	background: #ffffff;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	text-align: center;
 }
 .service-list {
@@ -1705,8 +1703,8 @@ hr {
 	-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
 	background-size: cover !important;
-	padding-top: 120px;
-	padding-bottom: 108px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	width: 100%;
 }
 
@@ -2064,10 +2062,10 @@ hr {
 .more-projects .portfolio-wrapper {
 	text-align: left;
 }
-.container-box{
-	/* border: red 1px solid; */
+/* .container-box{
+	border: red 1px solid;
 	padding: 20px;
     background-color: white;
     border-radius: 5px;
 	box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
-}
+} */

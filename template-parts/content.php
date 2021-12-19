@@ -4,11 +4,11 @@
 
 <div class="row">
 
-    <div id="main" class="tab-whole 1eight 1columns">
+    <div id="main" class="tab-whole">
 
       <article class="entry">
 
-             <header class="1entry-header">
+             <header class="">
 
                 
 <?php if(have_posts()) : ?>
