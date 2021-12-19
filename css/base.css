@@ -27,8 +27,7 @@ html {
 body {
 	margin: 0;
 }
-.body-container {
-}
+
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
 	display: block;
 }
@@ -250,6 +249,11 @@ a img {
 	border: none;
 	/* dodane */
 	width: 100%;
+	-webkit-box-shadow: -2px 9px 53px -16px rgba(66, 68, 90, 1);
+-moz-box-shadow: -2px 9px 53px -16px rgba(66, 68, 90, 1);
+box-shadow: -2px 9px 53px -16px rgba(66, 68, 90, 1);
+border-radius: 4px;
+
 }
 a:focus {
 	outline: none;
@@ -305,7 +309,7 @@ Kuniec
 
 .row {
 	width: 94%;
-	max-width: 1024px;
+	max-width: 1291px;
 	margin: 0 auto;
 }
 
@@ -405,16 +409,30 @@ Kuniec
 }
 
 .twelve-journal-cat {
-	width: 33.33333%;
+	/* width: 33.33333%; */
 	background-color: white;
 	margin: 10px;
     padding: 10px;
-
-/* tablets
+	-webkit-box-shadow: -2px 9px 53px -16px rgba(66, 68, 90, 1);
+-moz-box-shadow: -2px 9px 53px -16px rgba(66, 68, 90, 1);
+box-shadow: -2px 9px 53px -16px rgba(66, 68, 90, 1);
+border-radius: 4px;
+}
+.twelve-journalc {
+	/* width: 33.33333%; */
+	background-color: white;
+	margin: 10px;
+	padding: 10px;
+	-webkit-box-shadow: -2px 9px 53px -16px rgba(66, 68, 90, 1);
+	-moz-box-shadow: -2px 9px 53px -16px rgba(66, 68, 90, 1);
+	box-shadow: -2px 9px 53px -16px rgba(66, 68, 90, 1);
+	border-radius: 4px;
+}
+/* tablets half footer 
 --------------------------------------------------------------- */
 @media screen and (max-width:768px) {
 	.row {
-		width: auto;
+		width: auto; /*change */
 		padding-left: 30px;
 		padding-right: 30px;
 	}
@@ -448,11 +466,11 @@ Kuniec
 }
 
 /* mobile
---------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
 @media screen and (max-width:600px) {
 	.row {
-		padding-left: 25px;
-		padding-right: 25px;
+		padding-left: 5px;
+		padding-right: 5px;
 	}
 	.row .row {
 		margin-left: -10px;
@@ -473,21 +491,22 @@ Kuniec
 	.mob-whole, .row .mob-whole {
 		width: 100%;
 	}
-}
+}  
 
 /* small mobile devices
 --------------------------------------------------------------- */
-@media screen and (max-width:450px) {
-	.row {
+@media screen and (max-width:400px) { 
+	 .row-cat {
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+	
 	.row .row {
 		padding-left: 0;
 		padding-right: 0;
 		margin-left: 0;
 		margin-right: 0;
-	}
+	} 
 	.column, .columns {
 		width: auto !important;
 		float: none !important;
@@ -499,7 +518,42 @@ Kuniec
 	[class*="column"] + [class*="column"]:last-child {
 		float: none;
 	}
+} 
+
+@media screen and (min-width:600px) {
+	.flexb {
+		display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+width: 50%;
+float: left;
+justify-content: center;
+align-items: stretch;
+align-content: center;
+
+	}
+	.tab-half {
+	width: 25%;
+float: left;
+	}
 }
+
+@media screen and (min-width:900px) {
+	.flexb-9 {
+		display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 33.3333%;
+float: left;
+justify-content: center;
+align-items: stretch;
+align-content: center;
+
+	}
+    
+	
+}
+
 
 /* larger screens
 --------------------------------------------------------------- */
@@ -512,21 +566,21 @@ Kuniec
 
 /* block grids
 --------------------------------------------------------------- */
-.bgrid-sixth .bgrid {
+/* .bgrid-sixth .bgrid {
 	width: 16.66667%;
 }
 .bgrid-fourth .bgrid {
 	width: 25%;
 }
 .bgrid-third .bgrid {
-	/* width: 33.33333%; */
+	width: 33.33333%;
 }
 .bgrid-half .bgrid {
 	width: 50%;
 }
 .bgrid {
 	padding: 0;
-}
+} */
 
 
 /* Clearing for block grid columns. Allows columns with
@@ -541,9 +595,9 @@ different heights to align properly. */
 } */
 
 /* smaller screens */
-@media screen and (max-width:900px) {
+@media screen and (max-width:900px) { 
 	/* block grids for small screens */
-	.s-bgrid-sixth .bgrid {
+	 .s-bgrid-sixth .bgrid {
 		width: 16.66667%;
 	}
 	.s-bgrid-fourth .bgrid {
@@ -553,7 +607,7 @@ different heights to align properly. */
 		width: 33.33333%;
 	}
 	.s-bgrid-half .bgrid {
-		/* width: 50%; */
+		width: 50%;
 		
 	}
 	.s-bgrid-whole .bgrid {
@@ -591,10 +645,10 @@ different heights to align properly. */
 	}
 	.tab-bgrid-sixth .bgrid:nth-child(6n+1), .tab-bgrid-fourth .bgrid:nth-child(4n+1), .tab-bgrid-third .bgrid:nth-child(3n+1), .tab-bgrid-half .bgrid:nth-child(2n+1) {
 		clear: both;
-	}
+	} 
 	
 	
-}
+ } 
 
 /* mobile devices */
 @media screen and (max-width:600px) {
@@ -684,6 +738,5 @@ different heights to align properly. */
 	margin-right: auto;
 	text-align: center;
 }
-.journal-container {
 
-}
+

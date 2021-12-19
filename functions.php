@@ -2,8 +2,12 @@
 <?php
 //obrazek wyrozniajacy
 add_theme_support( 'post-thumbnails' ); 
-add_image_size('standard-image', auto,  auto,  true);
-array(‘center’, ‘center’);
+function new_img_thumb() {
+
+add_image_size('standard-image', 1291,  600, array(‘center’, ‘center’));
+}
+add_action('after_setup_theme','new_img_thumb');
+
 
 function puremedia_setup(){
 

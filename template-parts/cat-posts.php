@@ -29,18 +29,23 @@
 
             <div class="twelve-journal-cat columns-cat">   
 
-            <div id="blog-wrapper" class="bgrid-third s-bgrid-half mob-bgrid-whole 1group">
+            <div id="blog-wrapper" class="bgrid-third s-bgrid-half mob-bgrid-whole group opacity-color">
+        
         	<article class="bgrid">   
 
-            <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'medium' ); ?>
+            <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?>
 
-           
+            
             
                     <h3 class=""><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                   
                         <?php the_excerpt(''); ?>
                     </div>
-                </div>
+        </div>
+        </div>
+       
+
+                
                 
         
 

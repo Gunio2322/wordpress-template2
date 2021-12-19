@@ -29,10 +29,10 @@
 
             <div class="twelve-journal columns">   
 
-            <div id="blog-wrapper" class="bgrid-third s-bgrid-half mob-bgrid-whole 1group">
+            <div id="blog-wrapper" class="bgrid-third 1s-bgrid-half mob-bgrid-whole 1group">
         	<article class="bgrid">   
 
-            <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'medium' ); ?>
+            <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?>
 
            
             

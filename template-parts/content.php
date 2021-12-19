@@ -1,10 +1,10 @@
-<?php get_header(); ?> 
+
 
 <section id="content">
 
 <div class="row">
 
-    <div id="main" class="tab-whole 1eight columns">
+    <div id="main" class="tab-whole 1eight 1columns">
 
       <article class="entry">
 
@@ -26,9 +26,7 @@
 <?php the_content(); ?>
 </div>
 </div>
-</div>
-</div>
-</div>
+
 </div>
 </article>
 

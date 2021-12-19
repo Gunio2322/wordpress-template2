@@ -8,37 +8,22 @@
 <?php get_header();?>
 
 
-<main>
+
 
             <?php get_template_part('template-parts/header-single');?>
 
-            <div class="main-container">
             <?php get_template_part('template-parts/content');?>
-            <?php get_template_part('template-parts/cat-posts');?>
+            <?php get_template_part('template-parts/cat-posts.copy');?>
            
-</div>
-
-
-
-   
 
 
 
 
 
-</main>
-
-</div>
-
-</div>
-  <!-- .content-area -->
-
- 
  
 
    <?php get_footer();?>
 
   
-</body>
 
-</html>
+
