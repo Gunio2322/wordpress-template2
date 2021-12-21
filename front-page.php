@@ -1,10 +1,7 @@
-
-
-
 <?php
 /*
-template-parts
- */
+*Template Name: Front-page
+*/
 ?>
 <?php get_header();?>
 

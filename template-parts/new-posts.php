@@ -1,17 +1,11 @@
-
-
+<?php
+/*
+*Template Name: New-posts
+*/
+?>
 <section id="journal">
 
-
 <div class="row">
-
-
-
-
-                  
-
-
-
 
         <h1 class=""><?php echo get_cat_name(1); ?></h1>
        

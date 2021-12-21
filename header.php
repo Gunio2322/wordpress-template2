@@ -1,7 +1,7 @@
 <?php
-/**
- * The header for Puremedia
- */
+/*
+*Template Name: Header
+*/
 ?>
 <!doctype html>
 <html class="no-js" lang="<?php language_attributes(); ?>">
@@ -17,17 +17,7 @@
 <!-- add class content-css -->
 
 <!-- title site and description site -->
-   <?php if ( is_front_page() && is_home() ) : ?>
-    
-    <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-    <?php else : ?>
-        <p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-
-<?php endif; ?> 
-<?php $puremedia_description = get_bloginfo( 'description', 'display' ); ?>
-<?php if ( $puremedia_description ) : ?>
-    <p class="site-description"><?php echo $puremedia_description; ?></p>
-<?php endif; ?>
+   
 <!-- end description -->
    
 

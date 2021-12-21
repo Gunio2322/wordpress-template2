@@ -1,4 +1,9 @@
-<?php if (is_active_sidebar('sidebar-2')) : ?>  
+
+<?php
+/*
+*Template Name: Sidebar
+*/
+?><?php if (is_active_sidebar('sidebar-2')) : ?>  
     <?php dynamic_sidebar('sidebar-2'); ?>
 <?php else: ?>
     <div class="">

@@ -1,6 +1,7 @@
-<?php/*
-* index.php
- */
+<?php
+/*
+*Template Name: Hero
+*/
 ?>
 <?php get_header() ;?>
 

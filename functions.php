@@ -4,17 +4,17 @@
 add_theme_support( 'post-thumbnails' ); 
 function new_img_thumb() {
 
-add_image_size('standard-image', 1291,  600, array(‘center’, ‘center’));
+add_image_size('standard-image', 1291,  600, array('center', 'center'));
 }
 add_action('after_setup_theme','new_img_thumb');
 
 
-function puremedia_setup(){
+// function puremedia_setup(){
 
-    //  nowe funkcjonalności
+//     //  nowe funkcjonalności
     
-  }
-  add_action('after_setup_theme', 'puremedia_setup');
+//   }
+//   add_action('after_setup_theme', 'puremedia_setup');
   
   
 

@@ -86,7 +86,7 @@ h2 {
 }
 h3 {
 	font-size: 20px;
-	line-height: 10px;
+	line-height: 30px;
 }
 h4 {
 	font-size: 17px;
@@ -805,7 +805,7 @@ header {
 	z-index: 990;
 	text-align: center;
 	background: #12151B;
-	background: rgba(18, 21, 27, 0.5);
+	background: rgba(18, 21, 27, 0.0);
 	-moz-transition: background 0.5s ease-in-out;
 	-o-transition: background 0.5s ease-in-out;
 	-webkit-transition: background 0.5s ease-in-out;
@@ -848,7 +848,7 @@ header .logo a {
 	}
 }
 .opaque {
-	background: #12151b;
+	background: #191919e0;
 }
 
 /* primary navigation
@@ -862,7 +862,8 @@ header .logo a {
 
 /* nav-wrap */
 #nav-wrap {
-	font: 12px "raleway-heavy", sans-serif;
+	font: 12px "roboto", sans-serif;
+	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
 	display: inline-block;
@@ -890,7 +891,7 @@ ul#nav li a {
 	padding: 17px 12px;
 	line-height: 38px;
 	text-decoration: none;
-	color: #3a434ab0;
+	color: #ffffff;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
 	-webkit-transition: all 0.2s ease-in-out;
@@ -904,7 +905,8 @@ ul#nav li a:active {
 	background-color: transparent !important;
 }
 ul#nav li.current a {
-	background: #f26522;
+	/* background: #f26522; */
+	border: 1px white solid;
 	color: white;
 }
 
@@ -1295,7 +1297,7 @@ hr {
 /* k. Hero Section
 /* =================================================================== */
 #hero {
-	background: #12151b url(../images/sucsses.webp) no-repeat center center fixed;
+	background: #12151b url(../images/shoppingm.webp) no-repeat center center fixed;
 
 	/* background: url(../images/sucsses.jpg) no-repeat center center fixed; */
       
@@ -1424,7 +1426,7 @@ hr {
 }
 
 /* Slider Control Nav */
-.hero-content .flex-control-nav {
+/* .hero-content .flex-control-nav {
 	width: 80%;
 	margin: 0 auto;
 	display: block;
@@ -1459,7 +1461,7 @@ hr {
 .hero-content .flex-control-paging li a.flex-active {
 	border-color: #f26522;
 	cursor: default;
-}
+} */
 
 /* 
 /* l. Portfolio Section
@@ -1564,39 +1566,60 @@ hr {
 /* 
 /*  m. Services Section
 /* =================================================================== */
+
+
+
 #services {
-	background: #ffffff;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: center;
+    /* margin: 0;
+    padding: 0;
+    background-color: aqua; */
+    height: auto;
 }
-.service-list {
-	margin: 15px -22px 0 -22px;
-}
-.service-list .bgrid {
-	margin-top: 15px;
-	margin-bottom: 15px;
-	padding: 0 22px;
-}
-.service-list .icon-part {
-	background: #f26522;
-	color: white;
-	width: 72px;
-	padding: 15px 3px;
-	font-size: 40px;
-	border-radius: 3px;
-	margin: 0 auto;
-}
-.service-list h3 {
-	font: 16px/24px "raleway-heavy", sans-serif;
-	padding: 0;
-}
-.service-list p {
-	color: #707273;
-	position: relative;
-	top: -6px;
+.container-s {
+    font-family: Roboto,Arial,sans-serif ;
+	
+    margin: 0; 
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+
+
+    /* background-color: rgb(185, 199, 199); */
 }
 
+
+h1 {
+    
+    color: brown;
+}
+
+.edit {
+    /* border: 1px green solid; */
+   
+    text-align: center;
+	word-wrap: break-word;
+    flex: 1;
+}
+.shop {
+    /* border: 1px green solid; */
+   
+    text-align: center;
+	word-wrap: break-word;
+	flex: 1;
+}
+.inter {
+    /* border: 1px green solid; */
+   
+    text-align: center;
+	word-wrap: break-word;
+	flex: 1;
+}
+@media(min-width: 760px){
+    .container-s {
+      flex-direction: row; 
+	   
+    }
+}
 
 /* 
 /*  n. About Section

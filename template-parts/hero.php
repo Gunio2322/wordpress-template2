@@ -19,15 +19,16 @@
 					   <!-- Slide -->
 					   <li>
 						   <div class="flex-caption">
-								<h1>Hello, we are puremedia. We make awesome and stunning digital stuff.</h1>	
-								<p><a class="button stroke smoothscroll" href="#about">More About Us</a></p>																   
+								<h1>Profesjonalne strony www i sklepy internetowe Wordpress Woocommerce PrestaShop </h1>
+</h1>	
+								<p><a class="button stroke smoothscroll" href="#about">Sprawdź</a></p>																   
 							</div>						
 					   </li>
 
 					   <!-- Slide -->
 					   <li>						
 							<div class="flex-caption">
-								<h1 >We imagine, craft and manage your brand in this new digital world.</h1>	
+								<h1 >Pozycjonowanie SEO i optymalizacja kodu dla poprawy widocznośći w wyszukiwarkach.</h1>	
 								<p><a class="button stroke smoothscroll" href="#portfolio">See Our Works</a></p>									   
 							</div>					
 					   </li>

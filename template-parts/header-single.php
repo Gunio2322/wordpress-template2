@@ -1,3 +1,8 @@
+<?php
+/*
+*Template Name: Heder-single
+*/
+?>
 <?php wp_head(); ?>
 </head>
 
@@ -34,7 +39,7 @@
 
 	         <ul id="nav" class="nav">
 	            <li><a href="index.php#hero">Home.</a></li>
-		         <li><a href="index.php#portfolio">Works.</a></li>
+		        <li><a href="index.php#portfolio">Works.</a></li>
 	            <li><a href="index.php#services">Services.</a></li>
 	            <li><a href="index.php#about">About.</a></li>
 	            <li class="current"><a href="index.php#journal">Blog.</a></li>	        
@@ -48,20 +53,20 @@
    </header>
 
 
-   <!-- Page Title
+    <!-- Page Title
    ================================================== -->
-   <section id="page-title">	
-   	  
-		<div class="row">
+   <!-- <section id="page-title">	
+   	   -->
+		<!-- <div class="row">
 
 			<div class="twelve columns">
 
 				<h1>Our Blog<span>.</span></h1>
 				<p>Aenean condimentum lacus sit amet luctus lobortis.</p>
 
-			</div>			    
+			</div>			     -->
 
-		</div> <!-- /row -->	   
+		<!-- </div> /row	    -->
 
-   </section> <!-- /page-title -->
-
+   <!-- </section> /page-title -->
+ 
