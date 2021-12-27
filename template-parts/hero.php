@@ -14,7 +14,7 @@
 
 			   <div id="hero-slider" class="flexslider">
 
-				   <ul class="slides">
+				   <ul class="slidesx">
 
 					   <!-- Slide -->
 					   <li>
@@ -25,21 +25,7 @@
 							</div>						
 					   </li>
 
-					   <!-- Slide -->
-					   <li>						
-							<div class="flex-caption">
-								<h1 >Pozycjonowanie SEO i optymalizacja kodu dla poprawy widocznośći w wyszukiwarkach.</h1>	
-								<p><a class="button stroke smoothscroll" href="#portfolio">See Our Works</a></p>									   
-							</div>					
-					   </li>
-
-					   <!-- Slide -->
-					   <li>
-						   <div class="flex-caption">
-								<h1 >Take a look at some of <a class="smoothscroll" href="#portfolio" title="">our works</a> or <a class="smoothscroll" href="#contact" title="">contact us</a> to discuss how we can help you.</h1>
-								<p><a class="button stroke smoothscroll" href="#contact">Get In Touch</a></p>										   
-							</div>
-					   </li>					              
+					   					              
 
 				   </ul>
 
