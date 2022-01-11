@@ -1,43 +1,7 @@
-/* =================================================================== */
 /* 
-/*  Puremedia v1.0 Media Queries
-/*  url:styleshout.com
-/*  10-10-2014
-/*
-/* =================================================================== */
 
+*/
 
-/* small screens */
-@media only screen and (max-width:900px) {
-
-	/* content styles */
-	#content #sidebar { padding-left: 0; }
-
-	/* hero section */
-	#hero-slider {	margin: 96px auto 30px;	}
-	#hero-slider .flex-caption h1 {
-		font: 44px/1.3 "raleway-semibold", sans-serif;
-		margin-bottom: 36px;
-	}
-
-	/* portfolio section */
-	#portfolio .row.items {
-		max-width: none;
-		width: 100%;
-		padding: 0;
-	}
-	#portfolio .row.items .twelve.columns {
-		padding: 0;
-	}
-
-	/* about section */
-	#team-wrapper .member-pic {
-		width: 66px;
-		height: 66px;
-	}
-
-
-} /* 900 */
 
 
 /* tablets */
@@ -162,286 +126,63 @@
 		display: block;
 	}
 
-	/* content styles */
-	#content { padding-top: 54px;	} 
-	#content #sidebar {
-		margin-top: 42px;
-		padding-left: 0;
-	}
-
-	/* sidebar styles */
-	#sidebar .link-list {
-		margin-left: -3px; 
-	}
-	#sidebar .link-list li {
-		display: inline-block;
-		padding: 8px 0 8px 0;
-	}
-	#sidebar .link-list li a {
-		display: inline-block;
-		white-space: nowrap;		
-	}
-	#sidebar .link-list li:before {
-		content: "|";
-		padding-left: 3px;
-		padding-right: 6px;
-		color: #cfd9db;
-	}
-	#sidebar .link-list li:first-child:before {
-		display: none;
-	}
-	#sidebar .link-list li:first-child {
-		margin-left: 6px;
-	}
-
-	/* footer styles */
-	footer {	padding-bottom: 36px; }
-	footer .footer-about { padding-right: 25px; }
-	footer .copyright {
-		padding-left: 15px;
-		padding-right: 60px;
-	}
-	footer #go-top { right: 0;	}
-	footer #go-top a {
-		height: 60px;
-		width: 60px;
-		line-height: 60px;
-		padding: 0;
-	}
-	footer #go-top a span { display: none;	}
-	footer #go-top a i {	font-size: 16px; }
-
-	/* common and shared styles */
-	.section-head p {	width: 100%; } 
-	#page-title h1 {
-		font: 46px/1.3 "raleway-bold", sans-serif;
-		width: 100%;
-	}
-	#page-title p {
-		font: 15px/30px "merriweather-light", sans-serif;
-		width: 100%;
-	}
-	.entry header { text-align: center;	}
-	.entry .entry-meta ul {
-		text-align: center;
-		margin-top: 6px;
-	}
-	.pagenav a[rel="next"]:after { float: right; }
-
-	/* hero section */
-	#hero-slider {	margin: 78px auto 24px;	}
-	#hero-slider .flex-caption { margin: 0 8%; }
-	#hero-slider .flex-caption h1 {
-		font: 42px/1.3 "raleway-semibold", sans-serif;
-	}
-
-	/* about section */
-	#about .about-content {	padding: 0 30px; }
-	#about .left {	padding-right: 15px; }
-	#about .right { padding-left: 15px;	}
-	/*#team-wrapper .member-header { margin-bottom: 0; }*/
-
-	/* blog entry */
-	.entry p.lead {
-		font: 16px/33px "merriweather-light", sans-serif;
-	} 
-	#comments h3 {	text-align: center; }
-	#comments form {
-		margin-left: 0;
-		border-bottom: 1px solid white;
-	}
-	#comments form input, #comments form textarea, 
-	#comments form select, #comments form label {
-		width: 100%;
-		float: none;
-	}
-	#comments form label { padding-left: 0; }
-	#comments form div {	margin: 6px 0 0 0; }
-	#comments form input { margin-bottom: 0; }
-	#comments form .message label { display: block;	}
-	#comments form button {
-		width: 100%;
-		margin-top: 24px;
-	}
 
 
-} /* 768 */
+	
+	
+	
+
+} 
+
+
 
 
 /* mobiles */
 @media only screen and (max-width:600px) {
 
-	/* content styles */
+	/* content styles
 	#content { padding-top: 48px;	}
 
 	/* footer styles */
-	footer .footer-about { padding-right: 10px; }
-	footer .copyright { padding-left: 10px; }
+	/* footer .footer-about { padding-right: 10px; }
+	footer .copyright { padding-left: 10px; } */
 
 	/* common and shared styles */
-	.section-head p {
+	/*.section-head p {
 		font: 16px/33px "merriweather-light", sans-serif;
 	}
 	.entry header h1 {
 		font: 26px/33px "raleway-bold", sans-serif;
-	}
+	} */
 
 	/* hero section */
 	#hero { padding-bottom: 66px;	}
 
-	/* service section */
-	.service-list .bgrid {
-		margin-top: 12px;
-		margin-bottom: 12px;
-		padding: 0 60px;
-	}
-
-	/* about section */
-	#about h3 {	text-align: center; }
-	#about .left {	padding-right: 10px;	}
-	#about .right { padding-left: 10px;	}
-	#team-wrapper .member {	text-align: center; }
-	#team-wrapper .member-pic {
-		position: absolute;
-		left: 50%;
-		top: 50%;
-		margin-left: -100px;
-		margin-top: -39px;
-	}
-	#team-wrapper .member-name { margin-left: 85px;	}
-	#team-wrapper .member-name h3, #team-wrapper .member-name span {
-		text-align: left;
-	}
-
-	/* journal section */
-	#journal #blog-wrapper { margin: 24px 20px 0 20px;	}
-	#journal #blog-wrapper h5, #journal #blog-wrapper h3 {
-		text-align: center;
-	}
-
-	/* contact section */
-	#contact .form-section {
-		padding-left: 40px;
-		padding-right: 40px;
-	}
-
-	/* blog entry */
-	.commentlist {
-		width: 100%;
-		margin-left: 0;
-	}
-	.commentlist > li { padding-left: 0; }
-	.commentlist li .avatar { display: none; }
-
-	/* portfolio entry */
-	.more-projects h1 {
-		font: 26px/33px "raleway-bold", sans-serif;
-	}
-
-
-} /* 600 */
-
-
-/* small small mobiles */
-@media only screen and (max-width:480px) {
-
-	/* hero section */
-	#hero-slider {
-		width: 94%;
-		margin: 54px auto 24px;
-	}
-	#hero-slider .flex-caption { margin: 0; }
-	#hero-slider .flex-caption h1 {
-		font: 36px/1.3 "raleway-semibold", sans-serif;
-	}
-	/* about section */
-	#team-wrapper .member-pic {
-		width: 60px;
-		height: 60px;	
-		margin-top: -30px;			
-	}
-	#team-wrapper .member-name { margin-left: 60px;	}
-	#team-wrapper .member-name h3 {
-		font-size: 15px;
-		line-height: 18px;	
-		margin-bottom: 12px;	
-	}
-
-} /* 480 */
+	
+}
+ 
 
 
 @media only screen and (max-width:460px) {
 
 	/*	footer styles */ 
-	footer .right-cols .columns {
+	/* footer .right-cols .columns {
 		width: 100% !important;
-	}
+	} */
 
-	/* services section */
-	.service-list .bgrid {
-		padding: 0 22px;
-	}
-
-	/* journal section */
-	#journal #blog-wrapper {
-		margin: 24px -18px 0 -18px;
-	}
-
-	/* contact section */
-	#contact .form-section {
-		padding-left: 20px;
-		padding-right: 20px;
-	}
+	
 
 } /* 460 */
 
-
-@media only screen and (max-width:420px) {
-
-	/* page-title */
-	#page-title h1 {
-		font: 38px/1.3 "raleway-bold", sans-serif;
-	}
-
-	/* portfolio section */
-	.item .item-wrap .portfolio-item-meta {
-		margin-right: 15px;
-	}
-	.item .item-wrap .portfolio-item-meta h5 {
-		font: 13px/18px "raleway-heavy", sans-serif;
-	}
-	.item .item-wrap .portfolio-item-meta p {
-		font: 12px/18px "raleway-semibold", sans-serif;
-	}
-
-} /* 420 */
 
 
 @media only screen and (max-width:400px) {
 
 	/* footer styles */
-	footer .footer-about { padding-right: 0; }
+	/* footer .footer-about { padding-right: 0; }
 	footer .copyright { padding-left: 0; }
 
-	/* hero section */
-	#hero-slider {	width: 100%; }
-	#hero-slider .flex-caption h1 {
-		font: 32px/1.3 "raleway-semibold", sans-serif;
-		padding-top: 20vh;
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-
-	/* about section */
-	#about .about-content {	padding: 0 30px; }
-	#about .left {	padding: 0;	}
-	#about .right { padding: 0; }
-
-	/* contact section */
-	#contact .form-section {
-		padding-left: 30px;
-		padding-right: 30px;
-	}
+	 */
 
 
 } /* 400 */

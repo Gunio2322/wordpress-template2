@@ -3,35 +3,34 @@
 *Template Name: Front-page
 */
 ?>
-<?php get_header();?>
-
-
-<main>
-
-            <?php get_template_part('template-parts/hero');?>
-
-            <div class="main-container">
-            <?php get_template_part('template-parts/content');?>
-</div>
-<?php get_template_part('template-parts/new-posts');?>
+<?php get_header(); ?>
 
 
 
 
+<?php get_template_part('template-parts/hero'); ?>
+   
 
 
-</main>
+<?php get_template_part('template-parts/servis'); ?>
 
-</div>
+<?php get_template_part('template-parts/jobs'); ?>
 
-</div>
-  <!-- .content-area -->
-
+<?php get_template_part('template-parts/new-posts'); ?>
 
 
-   <?php get_footer();?>
+
+
+
+
+
+
+
+
+
+   <?php get_footer(); ?>
 
   
-</body>
 
-</html>
+
+

@@ -14,19 +14,15 @@
 
 			   <div id="hero-slider" class="flexslider">
 
-				   <ul class="slidesx">
+				   <ul class="slide">
 
 					   <!-- Slide -->
 					   <li>
 						   <div class="flex-caption">
-								<h1>Profesjonalne strony www i sklepy internetowe Wordpress Woocommerce PrestaShop </h1>
-</h1>	
-								<p><a class="button stroke smoothscroll" href="#about">Sprawdź</a></p>																   
+								<h1>Profesjonalne strony www i sklepy internetowe Wordpress Woocommerce PrestaShop </h1>	
+								<!-- <p><a class="button stroke smoothscroll" href="#about">Sprawdź</a></p>																    -->
 							</div>						
 					   </li>
-
-					   					              
-
 				   </ul>
 
 			   </div> <!-- .flexslider -->				   

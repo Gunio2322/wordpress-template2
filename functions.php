@@ -22,18 +22,31 @@ function puremedia_scripts() {
 wp_enqueue_style( "style-base-css", get_template_directory_uri()."/css/base.css",false,'1.0','all');
 wp_enqueue_style( "style-main-css", get_template_directory_uri()."/css/main.css",false,'1.0','all');
 wp_enqueue_style( "style-media-queries-css", get_template_directory_uri()."/css/media-queries.css",false,'1.0','all');
-wp_enqueue_style( "style-fonts-css", get_template_directory_uri()."/css/fonts.css",false,'1.0','all');
+// wp_enqueue_style( "style-fonts-css", get_template_directory_uri()."/css/fonts.css",false,'1.0','all');
 
 
-wp_enqueue_script( 'backstretch-script', get_template_directory_uri().'/js/backstretch.js',array('jquery'),'1.0', true);
-wp_enqueue_script( 'jquery-script', get_template_directory_uri().'/js/jquery-1.10.2.min.js',array('jquery'),'1.0', true);
-wp_enqueue_script( 'migrate-script', get_template_directory_uri().'/js/jquery-migrate-1.2.1.min.js',array('jquery'),'1.0', true);
-wp_enqueue_script( 'fittex-script', get_template_directory_uri().'/js/jquery.fittex.js',array('jquery'),'1.0', true);
-wp_enqueue_script( 'lexslider-script', get_template_directory_uri().'/js/jquery.flexslider.js',array('jquery'),'1.0', true);
+// wp_enqueue_script( 'backstretch-script', get_template_directory_uri().'/js/backstretch.js',array('jquery'),'1.0', true);
+// wp_enqueue_script( 'jquery-script', get_template_directory_uri().'/js/jquery-1.10.2.min.js',array('jquery'),'1.0', true);
+// wp_enqueue_script( 'jquery-script', get_template_directory_uri().'/js/jquery-3.0.6.min.js',array('jquery'),'1.0', true);
+
+// wp_enqueue_script( 'migrate-script', get_template_directory_uri().'/js/jquery-migrate-1.2.1.min.js',array('jquery'),'1.0', true);
+// wp_enqueue_script( 'waypoints-script', get_template_directory_uri().'/js/waypoints.js',array('jquery'),'v1.1.7', true);
+// wp_enqueue_script( 'lexslider-script', get_template_directory_uri().'/js/jquery.flexslider.js',array('jquery'),'1.0', true);
 wp_enqueue_script( 'main-script', get_template_directory_uri().'/js/main.js',array('jquery'),'1.0', true);
-wp_enqueue_script( 'modernizr-script', get_template_directory_uri().'/js/modernizr.js',array('jquery'),'1.0', true);
+// <script src="https://kit.fontawesome.com/3158375253.js" crossorigin="anonymus"></script>
+
+// wp_enqueue_script( 'modernizr-script', get_template_directory_uri().'/js/modernizr.js',array('jquery'),'1.0', true);
 }
 add_action( 'wp_enqueue_scripts', 'puremedia_scripts' );
+
+function add_code2header() {
+  ?>
+    <!-- Kod Font Awesome 5 -->
+    <link rel="stylesheet" href="https://kit.fontawesome.com/3158375253.js" crossorigin="anonymus">
+    <!-- /Kod Font Awesome 5 -->
+  <?php
+  }
+  add_action( 'wp_head', 'add_code2header' );
 
 // Rejestracja sidebar
 function reg_sidebar() {

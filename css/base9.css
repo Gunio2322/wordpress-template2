@@ -1,0 +1,468 @@
+/* =================================================================== */
+/* 
+/*  Puremedia v1.0 Base Stylesheet
+/*  url:styleshout.com
+/*  10-09-2014
+/*
+/*  ------------------------------------------------------------------ 
+  
+    TOC: 
+    a. Reset
+    b. Basic Setup Styles
+    c. Typography  
+    d. Media
+    e. Grid
+    f. MISC
+  
+/* =================================================================== */
+
+
+
+/* 
+/* b. Basic Setup Styles - Top Elements zzachowac!!!!!!
+/* =================================================================== */
+/* *,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 62.5%;
+}
+
+body {
+	font-weight: normal;
+	line-height: 1;
+	text-rendering: optimizeLegibility;
+} */
+
+
+/* links
+---------------------------------------------------------------------- */
+/* a {
+	text-decoration: none;
+	line-height: inherit;
+}
+
+a img {
+	border: none;
+	width: 100%;
+	-webkit-box-shadow: -2px 9px 53px -16px rgba(66, 68, 90, 1);
+	-moz-box-shadow: -2px 9px 53px -16px rgba(66, 68, 90, 1);
+	box-shadow: -2px 9px 53px -16px rgba(66, 68, 90, 1);
+	border-radius: 4px;
+
+}
+
+a:focus {
+	outline: none;
+}
+
+p a,
+p a:visited {
+	line-height: inherit;
+} */
+
+/* 
+/* d. Media
+/* =================================================================== */
+/* img */
+/* video, */
+/* embed, */
+/* object  */
+/* {
+	max-width: 100%;
+	height: auto;
+} */
+
+
+/*
+
+object,
+embed {
+	height: 100%;
+}
+
+img {
+	-ms-interpolation-mode: bicubic;
+}
+
+.row {
+	width: 94%;
+	max-width: 1291px;
+	margin: 0 auto;
+}
+
+.row-cat {
+	width: 94%;
+	max-width: 1024px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+
+.narrow .row {
+	max-width: 980px;
+}
+
+.row .row {
+	width: auto;
+	max-width: none;
+	margin-left: -18px;
+	margin-right: -18px;
+}
+
+.row:before,
+.row:after {
+	content: "";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+/* 
+.column,
+.columns,
+.bgrid {
+	position: relative; 
+	
+	padding: 0 auto;
+	min-height: 1px;
+	float: left;
+}
+
+.columns-cat {
+	position: relative;
+	margin: 10px;
+	padding: 0 auto;
+	min-height: 1px;
+	float: left;
+}
+
+.column.centered,
+.columns.centered {
+	float: none;
+	margin: 0 auto;
+}
+
+.row.collapsed>.column,
+.row.collapsed>.columns,
+.column.collapsed,
+.columns.collapsed {
+	padding: 0;
+}
+
+[class*="column"]+[class*="column"]:last-child {
+	float: right;
+}
+
+[class*="column"]+[class*="column"].end {
+	float: right;
+}
+
+
+.four,
+.row .four {
+	width: 33.33333%;
+}
+
+
+.six,
+.row .six {
+	width: 50%;
+}
+
+
+.twelve,
+.row .twelve {
+	width: 100%;
+}
+
+.twelve-journal {
+	width: 33.33333%;
+
+}
+
+.twelve-journal-cat {
+	
+	background-color: white;
+	margin: 10px;
+	padding: 10px;
+	-webkit-box-shadow: -2px 9px 53px -16px rgba(66, 68, 90, 1);
+	-moz-box-shadow: -2px 9px 53px -16px rgba(66, 68, 90, 1);
+	box-shadow: -2px 9px 53px -16px rgba(66, 68, 90, 1);
+	border-radius: 4px;
+}
+
+.twelve-journalc {
+	
+	background-color: white;
+	margin: 10px;
+	padding: 10px;
+	-webkit-box-shadow: -2px 9px 53px -16px rgba(66, 68, 90, 1);
+	-moz-box-shadow: -2px 9px 53px -16px rgba(66, 68, 90, 1);
+	box-shadow: -2px 9px 53px -16px rgba(66, 68, 90, 1);
+	border-radius: 4px;
+}  */
+
+/* tablets half footer 
+--------------------------------------------------------------- */
+@media screen and (max-width:768px) {
+	/* .row {
+		width: auto;
+		/*change */
+	/*	padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.row .row {
+		padding-left: 0;
+		padding-right: 0;
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.tab-third,
+	.row .tab-third {
+		width: 33.33333%;
+	}
+
+	 */
+}
+
+/* mobile
+/* --------------------------------------------------------------- */
+@media screen and (max-width:600px) {
+	/* .row {
+		/* padding-left: 5px;
+		padding-right: 5px; */
+	/* }
+
+	.row .row {
+		margin-left: -10px;
+		margin-right: -10px;
+	}
+
+	.column,
+	.columns {
+		padding: 0 10px;
+	}  */
+
+}
+
+/* small mobile devices
+--------------------------------------------------------------- */
+@media screen and (max-width:400px) {
+	/* .row-cat {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.row .row {
+		padding-left: 0;
+		padding-right: 0;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.column,
+	.columns {
+		width: auto !important;
+		float: none !important;
+		margin-left: 0;
+		margin-right: 0;
+		clear: both;
+		padding: 0;
+	}
+
+	[class*="column"]+[class*="column"]:last-child {
+		float: none;
+	} */
+}
+
+@media screen and (min-width:600px) {
+	/* .flexb {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: 50%;
+		float: left;
+		justify-content: center;
+		align-items: stretch;
+		align-content: center;
+
+	}
+
+	.tab-half {
+		width: 25%;
+		float: left;
+	} */
+}
+
+@media screen and (min-width:900px) {
+	/* .flexb-9 {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 33.3333%;
+		float: left;
+		justify-content: center;
+		align-items: stretch;
+		align-content: center;
+
+	}
+ */
+
+}
+
+
+/* larger screens
+--------------------------------------------------------------- */
+@media screen and (min-width:1200px) {
+	/* .wide .wrap {
+		max-width: 1180px;
+	} */
+}
+
+
+
+
+/* Clearing for block grid columns. Allows columns with
+different heights to align properly. */
+/* .first {
+	clear: both;
+} */
+
+
+
+/* smaller screens */
+@media screen and (max-width:900px) {
+
+	/* block grids for small screens
+	.s-bgrid-sixth .bgrid {
+		width: 16.66667%;
+	}
+
+	.s-bgrid-fourth .bgrid {
+		width: 25%;
+	}
+
+	.s-bgrid-third .bgrid {
+		width: 33.33333%;
+	}
+
+	.s-bgrid-half .bgrid {
+		width: 50%;
+
+	}
+
+	.s-bgrid-whole .bgrid {
+		width: 100%;
+		clear: both;
+	}
+
+	.first,
+	[class*="bgrid-"] .bgrid:nth-child(n) {
+		clear: none;
+	}
+
+	.s-bgrid-sixth .bgrid:nth-child(6n+1),
+	.s-bgrid-fourth .bgrid:nth-child(4n+1),
+	.s-bgrid-third .bgrid:nth-child(3n+1),
+	.s-bgrid-half .bgrid:nth-child(2n+1) {
+		clear: both;
+	} */
+}
+
+/* tablets */
+@media screen and (max-width:768px) {
+	/* .tab-bgrid-sixth .bgrid {
+		width: 16.66667%;
+	}
+
+	.tab-bgrid-fourth .bgrid {
+		width: 25%;
+	}
+
+	.tab-bgrid-third .bgrid {
+		width: 33.33333%;
+	}
+
+	.tab-bgrid-half .bgrid {
+		width: 50%;
+	}
+
+	.tab-bgrid-whole .bgrid {
+		width: 100%;
+		clear: both;
+	}
+
+	.first,
+	[class*="tab-bgrid-"] .bgrid:nth-child(n) {
+		clear: none;
+	}
+
+	.tab-bgrid-sixth .bgrid:nth-child(6n+1),
+	.tab-bgrid-fourth .bgrid:nth-child(4n+1),
+	.tab-bgrid-third .bgrid:nth-child(3n+1),
+	.tab-bgrid-half .bgrid:nth-child(2n+1) {
+		clear: both;
+	} */
+
+
+}
+
+/* mobile devices
+@media screen and (max-width:600px) {
+	.mob-bgrid-sixth .bgrid {
+		width: 16.66667%;
+	}
+
+	.mob-bgrid-fourth .bgrid {
+		width: 25%;
+	}
+
+	.mob-bgrid-third .bgrid {
+		width: 33.33333%;
+	}
+
+	.mob-bgrid-half .bgrid {
+		width: 50%;
+	}
+
+	.mob-bgrid-whole .bgrid {
+		width: 100%;
+		clear: both;
+	}
+
+	.first,
+	[class*="mob-bgrid-"] .bgrid:nth-child(n) {
+		clear: none;
+	}
+
+	.mob-bgrid-sixth .bgrid:nth-child(6n+1),
+	.mob-bgrid-fourth .bgrid:nth-child(4n+1),
+	.mob-bgrid-third .bgrid:nth-child(3n+1),
+	.mob-bgrid-half .bgrid:nth-child(2n+1) {
+		clear: both;
+	} */
+/* } */
+
+/* stack on small mobile devices */
+/* @media screen and (max-width:400px) {
+	.stack .bgrid {
+		width: auto !important;
+		float: none !important;
+		margin-left: 0;
+		margin-right: 0;
+		clear: both;
+	}
+} */
+
