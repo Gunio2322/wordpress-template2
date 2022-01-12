@@ -1,12 +1,29 @@
-<?php 
-$categories = get_the_category();
-$category_id = $categories[0]->cat_ID;
-global $post;
- $args = array('category'=> $category_id, 'posts_per_page'=>64);
-$myposts = get_posts( $args );
-foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
+<?php
+/*
+Template Name: Archives
+*/
+get_header(); ?>
 
-// Ten sam kod miniaturki posta który jest w przykładzie powyżej
+<div id="container">
+	<div id="content" role="main">
 
-<?php endforeach;
-wp_reset_postdata();?>
+		<?php the_post(); ?>
+		<h1 class="entry-title"><?php the_title(); ?></h1>
+		
+		<?php get_search_form(); ?>
+		
+		<h2>Archives by Month:</h2>
+		<ul>
+			<?php wp_get_archives('type=monthly'); ?>
+		</ul>
+		
+		<h2>Archives by Subject:</h2>
+		<ul>
+			 <?php wp_list_categories(); ?>
+		</ul>
+
+	</div><!-- #content -->
+</div><!-- #container -->
+
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>
