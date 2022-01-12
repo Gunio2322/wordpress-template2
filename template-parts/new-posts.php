@@ -12,7 +12,7 @@
         <?php
         $new_query_blog = new WP_Query([
             'cat' => 1,
-            'posts_per_page' => 3,
+            'posts_per_page' => 4,
         ]);
         if ($new_query_blog->have_posts()):
             while ($new_query_blog->have_posts()):
@@ -28,7 +28,7 @@
             
                     <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                    
-                        <?php the_excerpt(''); ?>
+                        <!-- <?php the_excerpt(''); ?> -->
                      
                         </div>
                     

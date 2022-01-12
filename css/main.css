@@ -373,23 +373,61 @@ ul#nav li.current a {
 	 display: flex;
 	 flex-direction: row;
 	height: auto;
-	width: 100%;
+	width: 90%;
+	margin: 0 auto;
 	 
  }
 
  .item-blog {
 	height: 100%;
 	 width: auto;
-	 margin: 10px;
+	 margin: 15px;
 	 padding: 10px;
 	 background-color: white;
-	margin: 10px;
-	padding: 10px;
 	-webkit-box-shadow: -2px 9px 53px -16px rgba(66, 68, 90, 1);
 	-moz-box-shadow: -2px 9px 53px -16px rgba(66, 68, 90, 1);
 	box-shadow: -2px 9px 53px -16px rgba(66, 68, 90, 1);
 	border-radius: 4px;
 	
+ }
+ .item-blog h3 a {
+	 display: block;
+	font-size: 2rem;
+    font-weight: 600;
+    text-align: left;
+    font-family: Roboto, sans-serif;
+    color: #070707;
+ }
+
+ .item-blog p {
+	display: block;
+   font-size: 1.4rem;
+   text-align: left;
+   font-family: Roboto, sans-serif;
+   color: #2e2c2c;
+}
+@media screen and (max-width: 576px) {
+    .content-blog {
+       flex-direction: column;
+       width: auto;
+       height: 100%;
+    }
+ 
+    .content-blog h3 {
+       color: rgb(17, 16, 16);
+       font-size: 2.2rem;
+    }
+ 
+    .content-blog p {
+       color: rgb(73, 71, 71);
+       font-size: 1.6rem;
+    }
+    .item-blog {
+       width: 100%;
+       height: auto;
+	   margin-left: 10px;
+	   margin-right: 10px;
+    }
  }
 
 
@@ -406,48 +444,7 @@ footer {
 	position: relative;
 	color: #3C4142;	
 }
-/* footer a, footer a:visited {
-	color: #a43b0a;
-}
-footer a:hover, footer a:focus {
-	color: white;
-}
-footer h3 {
-	font: 13px/24px "raleway-bold", sans-serif;
-	margin-bottom: 0;
-	color: white;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-}
-footer p {
-	margin: 12px 0;
-}
 
-footer .footer-about {
-	padding-right: 60px;
-}
-footer .right-cols .columns {
-	width: 50%;
-	word-wrap: break-word;
-}
-footer ul {
-	margin: 12px 0;
-	padding: 0;
-	list-style: none;
-}
-footer ul li {
-	margin: 0;
-	padding-left: 0;
-	line-height: 24px;
-}
-footer ul li a, footer ul li a:visited {
-	color: #3C4142;
-}
-footer .copyright {
-	margin: 0;
-	padding: 24px 18px 6px 18px;
-	clear: both;
-} */
 
 /* back to top */
 footer #go-top {
