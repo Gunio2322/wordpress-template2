@@ -1,9 +1,19 @@
 <?php
 /*
-*Template Name: Heder-single
+*Template Name: Blog
+*Template Post Type: post
 */
 ?>
-<?php wp_head(); ?>
+<!doctype html>
+<html class="no-js" lang="<?php language_attributes(); ?>">
+
+  <head>
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://kit.fontawesome.com/3158375253.js" crossorigin="anonymus"></script>
+
+    <?php wp_head(); ?>
 </head>
 
 <body>

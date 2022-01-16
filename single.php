@@ -13,7 +13,7 @@
             <?php get_template_part('template-parts/header-single');?>
 
             <?php get_template_part('template-parts/content');?>
-            <?php get_template_part('template-parts/cat-posts.copy');?>
+            <?php get_template_part('template-parts/new-posts');?>
            
 
 
