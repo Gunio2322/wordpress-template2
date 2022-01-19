@@ -10,7 +10,8 @@
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<script src="https://kit.fontawesome.com/3158375253.js" crossorigin="anonymus"></script>
+	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"> -->
+	<!-- <script src="https://kit.fontawesome.com/3158375253.js" crossorigin="anonymus"></script> -->
 
     <?php wp_head(); ?>
 </head>

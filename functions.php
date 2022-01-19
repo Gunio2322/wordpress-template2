@@ -39,14 +39,7 @@ wp_enqueue_script( 'main-script', get_template_directory_uri().'/js/main.js',arr
 }
 add_action( 'wp_enqueue_scripts', 'puremedia_scripts' );
 
-function add_code2header() {
-  ?>
-    <!-- Kod Font Awesome 5 -->
-    <link rel="stylesheet" href="https://kit.fontawesome.com/3158375253.js" crossorigin="anonymus">
-    <!-- /Kod Font Awesome 5 -->
-  <?php
-  }
-  add_action( 'wp_head', 'add_code2header' );
+
 
 // Rejestracja sidebar
 function reg_sidebar() {

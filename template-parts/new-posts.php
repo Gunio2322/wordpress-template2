@@ -6,12 +6,12 @@
 <section id="blog">
 
 
-        <h1 class=""><?php echo get_cat_name(1); ?></h1>
+        <h1 class=""><?php echo get_cat_name(3); ?></h1>
         <div class="content-blog">
 
         <?php
         $new_query_blog = new WP_Query([
-            'cat' => 1,
+            'cat' => 0,
             'posts_per_page' => 3,
         ]);
         if ($new_query_blog->have_posts()):
@@ -25,11 +25,11 @@
           <!-- <div class="item-blog">  -->
             <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?>
           
-            
+            <div class="h3p-blog">
                     <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                    
                         <?php the_excerpt(''); ?>
-                     
+            </div>
                         </div>
                     
             <?php

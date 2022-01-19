@@ -1,7 +1,6 @@
 <section id="jobs">
       <div class="content-jobs">
         <div class="item-jobs">
-        <i class="far fa-thumbs-up"></i>
           <h3>Strony tanie i łatwe w administrowaniu.</h3>
           <p>
             Po oddaniu klientowi strony zapewniamy pomoc oraz szkolimy
@@ -9,7 +8,7 @@
           </p>
         </div>
         <div class="item-jobs">
-        <i class="fab fa-wordpress"></i>
+          
           <h3>Strona firmowa i sklep bez opłat.</h3>
           <p>
             Najpopularniejszy obecnie Cms Wordpress oferuje administratorom
@@ -17,7 +16,6 @@
           </p>
         </div>
         <div class="item-jobs">
-        <i class="fas fa-shield-alt"></i>
           <h3>Bezpieczenstwo i kopie zapasowe.</h3>
           <p>
             Darmowe i częste aktualizacje oraz okresowe kopie systemu na koncie

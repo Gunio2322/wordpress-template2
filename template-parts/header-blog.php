@@ -65,18 +65,18 @@
 
     <!-- Page Title
    ================================================== -->
-   <!-- <section id="page-title">	
-   	   -->
-		<!-- <div class="row">
+  <section id="page-title">	
+   	
+<div class="row"> 
 
 			<div class="twelve columns">
 
 				<h1>Our Blog<span>.</span></h1>
 				<p>Aenean condimentum lacus sit amet luctus lobortis.</p>
 
-			</div>			     -->
+			</div>			    
 
-		<!-- </div> /row	    -->
+		</div>  
 
-   <!-- </section> /page-title -->
+   </section> 
  
